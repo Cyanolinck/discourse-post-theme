@@ -13,8 +13,8 @@ $wet_sand: #eae5cd;
 $sky: $header_background; //#68c6b9 Topic header background $header_background
 $water: $quaternary; //#00a791 category buttons background $quaternary
 
-$night: #015562; //#015562 big main buttons like Topic button
-$dark_night: #00333d;
+$night: $selected; //#015562 big main buttons like Topic button
+$dark_night: lighten($selected, 15%); //#00333d
 
-$gold: #fcca46; // #fcca46 check if I can modify this
-$light_gold: #fdde89;
+$gold: $highlight; // #fcca46 check if I can modify this
+$light_gold: darken($highlight, 15%);  // #fdde89 
