@@ -101,10 +101,10 @@
 }
 
 nav.post-controls button.create {
-  color: $Topic_header;
+  color: $sky;
 
   .d-icon {
-    color: $Topic_header;
+    color: $sky;
   }
 }
 
@@ -172,7 +172,7 @@ nav.post-controls button.create {
   border-color: $wet_sand;
   @include border-radius-large;
   .d-icon {
-    color: $Topic_header;
+    color: $sky;
   }
   .discourse-no-touch & {
     &:hover {
@@ -188,7 +188,7 @@ nav.post-controls button.create {
 
 .embedded-posts .arrow,
 .read-state {
-  color: $Topic_header;
+  color: $sky;
 }
 
 .container.posts {
@@ -223,7 +223,7 @@ nav.post-controls button.create {
 #topic-title .title-wrapper {
   padding: 1em;
   color: $secondary;
-  background: $Topic_header;
+  background: $sky;
   border-bottom: none;
   border-radius: 20px 20px 0 0;
   width: 100%;
@@ -335,7 +335,7 @@ aside.quote .title {
 }
 
 .spinner {
-  border: 4px solid $Topic_header;
+  border: 4px solid $sky;
   border-right-color: transparent;
 }
 
