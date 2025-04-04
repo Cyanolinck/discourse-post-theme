@@ -1,10 +1,10 @@
 {
-  "name": "Isabelle",
+  "name": "Lincken Default",
   "about_url": null,
   "license_url": null,
   "assets": {},
   "color_schemes": {
-    "isabelle": {
+    "Lincken": {
       "primary": "00333d",
       "primary-high": "1d4249",
       "primary-medium": "6e8387",
