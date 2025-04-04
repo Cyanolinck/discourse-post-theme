@@ -212,9 +212,10 @@ input[type="color"] {
 .admin-controls,
 .user-primary-navigation,
 .list-controls {
-  background: $sky;
+  $bg-color: $sky;
   border-radius: 20px 20px 0 0;
   padding: 1em 1em 0.5em 1em;
+  $hover-bg-color: darken($sky, 15%);
 
   .select-kit.combo-box .combo-box-header > .d-icon {
     color: $secondary;
